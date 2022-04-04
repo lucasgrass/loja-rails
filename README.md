@@ -1,5 +1,10 @@
 # README
 
+## Uma aplicação simples de Ruby on Rails com paginação
+
+-> gem 'kaminari', '~> 1.2', '>= 1.2.1'
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
@@ -22,7 +27,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
-## Uma aplicação simples de Ruby on Rails com paginação
-
--> gem 'kaminari', '~> 1.2', '>= 1.2.1'
