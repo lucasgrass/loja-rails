@@ -1,0 +1,23 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Departamentos</h1>
+
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+</table>
+
+<div id="departamentos">
+  <% @departamentos.each do |departamento| %>
+    <%= render departamento %>
+    <p>
+      <%= link_to "Show this departamento", departamento %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New departamento", new_departamento_path %>
