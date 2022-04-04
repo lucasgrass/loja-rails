@@ -5,6 +5,4 @@ class Produto < ApplicationRecord
     validates :preco, presence: true
     validates :nome, length: { minimum: 3}
 
-    paginates_per 4
-
 end

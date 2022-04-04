@@ -4,7 +4,6 @@ class ProdutosController < ApplicationController
 
     def index
         @produtos = Produto.order(nome: :asc)
-        @produtos = Produto.page params[:page]
         @produto_com_desconto = Produto.order(:preco).limit 1
     end
 
